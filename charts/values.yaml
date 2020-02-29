@@ -1,0 +1,8 @@
+service:
+  type: NodePort
+  port:
+    http: 8025
+    smtp: 1025
+  nodePort:
+    http: 30020
+    smtp: 30021
